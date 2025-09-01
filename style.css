@@ -88,6 +88,7 @@ input {
     padding: .5rem 1rem;
     border-radius: .4rem;
     border: none;
+    font-weight: 700;
     background-color: var(--grey-50);
     font-size: var(--tp-2);
     color: var(--grey-300);
@@ -103,6 +104,9 @@ input[type="number"] {
 .hidden {
     color: var(--orange-400);
     display: none
+}
+.bill__form input {
+    width: 100%;
 }
 .bill__form input:is(:hover, :active, :focus) {
     border: 2px solid var(--green-400);
@@ -157,6 +161,7 @@ input[type="number"] {
     padding: .5rem 1rem;
     background-color: var(--green-900);
     color: var(--white);
+    font-weight: 700;
 }
 .percentage-btn:hover {
     background-color: var(--green-200);
@@ -165,6 +170,7 @@ input[type="number"] {
 #costum-btn {
     padding: .5rem 1rem;
     color: var(--grey-550);
+    font-weight: 700;
     background-color: var(--grey-50);
 }
 
