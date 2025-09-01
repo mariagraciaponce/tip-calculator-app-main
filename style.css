@@ -47,10 +47,11 @@ body {
     line-height: var(--line-heigh);
     font-family: var(--ff);
     font-weight: var(--fw);
-    background-color: var(--green-200);
+    background-color: var(--grey-200);
     display: grid;
+    gap: 2rem;
     place-items: center;
-    cursor: pointer
+    cursor: pointer;
 }
 p, label {
     font-size: var(--tp-3);
@@ -65,7 +66,7 @@ button {
 header {
     display: grid;
     place-items: center;
-    margin: 2rem;
+    padding-block-start: 2rem;
 }
 .tip-calculator__container {
     background-color: var(--white);
